@@ -33,37 +33,53 @@ export function ShopComponent({ children }) {
     },
   ]);
 
-  const getData = async () => {
-      db.collection("products").get().then((querySnapshot) => {
-          querySnapshot.docs.map(d=>{
-              setProductos([{id: d.id, data: d.data()}])
-            });
-        });
-    };
+  // const getData = () => {
+  //     db.collection("products").get().then((querySnapshot) => {
+  //         querySnapshot.docs.map(d => {
+  //             return setProductos([{id: d.id, data: d.data()}])
+  //           });
+  //       });
+  //   };
 
     const getByCategory = cat => {
       setProductos([])
       const prodByCategory = db.collection("products").where('category', '==', cat)
       let datos = {}
       prodByCategory.get().then((querySnapshot) => {
-            querySnapshot.docs.map(d=>{
+            querySnapshot.docs.map(d => {
               datos = {...d.data(), id: d.id}
-              setProductos(prod => [...prod, datos])
+              return setProductos(prod => [...prod, datos])
               });
           })
     }
 
-    // const getProdById = id => {
-    //   // setProductos([])
-    //   const prodByCategory = db.collection("products").where('id', '==', id)
-    //   let datos = {}
-    //   prodByCategory.get().then((querySnapshot) => {
-    //         querySnapshot.docs.map(d=>{
-    //           datos = {...d.data(), id: d.id}
-    //           setProductos(prod => [...prod, datos])
-    //           });
-    //       })
-    // }
+    const addToCart = (newProd, cant) => {
+
+      const subtotal = newProd.price * cant
+
+      const productoAgregado = {...newProd, cantidad: cant, subtotal: subtotal}
+      if(cart){
+          cart.map(item => {
+              if(item.id === productoAgregado.id){
+                return item.cantidad = item.cantidad + productoAgregado.cantidad
+              }
+            })
+          }
+          setCart(cart => [...cart, productoAgregado])
+    }
+
+    const removeToCart = (id) => {
+
+      let aux = cart.filter(obj => {
+          return obj.id !== id;
+        });
+        setCart(aux);
+  }
+
+  const borrarCarrito = () => {
+      setCart([])
+  }
+
     
     useEffect(() => {
         if(category){
@@ -72,7 +88,7 @@ export function ShopComponent({ children }) {
     }, [category]);
     
   return (
-    <ShopContext.Provider value={{categories, category, setCategory, productos, setProductos, setCart }}>
+    <ShopContext.Provider value={{removeToCart, borrarCarrito, addToCart, cart, categories, category, setCategory, productos, setProductos, setCart }}>
         {children}
     </ShopContext.Provider>
   );

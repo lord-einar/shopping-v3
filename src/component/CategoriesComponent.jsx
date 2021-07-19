@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./CategoriesComponent.css";
 
 function CategoriesComponent({ cat }) {
@@ -9,7 +10,7 @@ function CategoriesComponent({ cat }) {
         <Card.Img variant="top" src={cat.image} />
         <Card.Body>
           <Card.Title>{cat.name}</Card.Title>
-          <Button variant="primary">Explorar</Button>
+          <Button as={Link} to={`/categories/${cat.name}`} variant="primary">Explorar</Button>
         </Card.Body>
       </Card>
     </>

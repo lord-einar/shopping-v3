@@ -1,0 +1,33 @@
+.card-detail {
+    width: 60%;
+    margin: 1% auto;
+    padding: 1%;
+}
+
+.details {
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+}
+
+.total-carrito{
+    background-color: #fff;
+    color: red;
+    font-size: larger;
+    width: 60%;
+    margin: 1% auto;
+    padding: 1%;
+}
+
+.quitar-carrito{
+    margin-left: 2%;
+}
+
+.carrito-vacio{
+    background-color: rgb(214, 217, 230);
+    /* color: red; */
+    font-size: larger;
+    width: 60%;
+    margin: 5% auto;
+    padding: 1%;
+}

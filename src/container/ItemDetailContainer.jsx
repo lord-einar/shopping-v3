@@ -12,10 +12,9 @@ function ItemDetailContainer() {
 
     
     useEffect(() => {
-        console.log('UseEffect cargado')
-        const data = productos.find(prd => prd.id = idProduct)
+        const data = productos.find(prd => prd.id === idProduct)
         setProducto(data)
-    }, [idProduct])
+    }, [idProduct, productos])
     return (
         <div className='container'>
             {producto

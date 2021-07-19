@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
+import CartWidgetComponent from "./CartWidgetComponent";
 
 function NabvarComponent() {
 
@@ -33,9 +34,10 @@ function NabvarComponent() {
               <NavDropdown title="Categorias">
               {categories.map(cat =>
                 <NavDropdown.Item as={Link} to={`/categories/${cat.name}`}>{cat.name}</NavDropdown.Item>
-              )}
+                )}
               </NavDropdown>
               <Nav.Link href="#">Ofertas</Nav.Link>
+              <CartWidgetComponent />
             </Nav>
           </Navbar.Collapse>
         </Container>

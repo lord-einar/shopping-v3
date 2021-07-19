@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import CartComponent from "./component/CartComponent";
 import NabvarComponent from "./component/NabvarComponent";
 import HomeContainer from "./container/HomeContainer";
 import ItemDetailContainer from "./container/ItemDetailContainer";
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route exact path="/productDetail/:idProduct">
               <ItemDetailContainer />
+            </Route>
+            <Route exact path='/cart'>
+              <CartComponent />
             </Route>
           </Switch>
         </BrowserRouter>
