@@ -1,0 +1,10 @@
+.boton-categorias {
+    border-radius: 50px;  
+    background: linear-gradient(145deg, #e9ffff, #c4dde2);
+    box-shadow: 20px 20px 60px #b9d1d5, -20px -20px 60px #fbffff;
+}
+
+.img-boton-category {
+    position: relative;
+    width: 100%;
+}

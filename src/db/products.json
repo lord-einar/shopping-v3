@@ -1,0 +1,214 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Zapatillas Nike",
+      "price": "12300",
+      "stock": 15,
+      "category": "Indumentaria",
+      "subcategory": "Calzado",
+      "description": "Las ultimas zapas de Nike",
+      "image": "https://essential.vteximg.com.br/arquivos/ids/329007-1000-1000/306-6674_1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Zapatillas Adidas",
+      "price": "11500",
+      "stock": 12,
+      "category": "Indumentaria",
+      "subcategory": "Calzado",
+      "description": "Las ultimas zapas de Adidas",
+      "image": "https://essential.vteximg.com.br/arquivos/ids/254432-1000-1000/261-0312_1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Zapatillas Puma",
+      "price": "13200",
+      "stock": 16,
+      "category": "Indumentaria",
+      "subcategory": "Calzado",
+      "description": "Las ultimas zapas de Puma",
+      "image": "https://essential.vteximg.com.br/arquivos/ids/225892-1000-1000/961-0912_1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Remera Nike",
+      "price": "6500",
+      "stock": 11,
+      "category": "Indumentaria",
+      "subcategory": "Remeras",
+      "description": "Las ultimas zapas de Puma",
+      "image": "https://redsport.vteximg.com.br/arquivos/ids/999840-1000-1000/GA025420901.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Remera Adidas",
+      "price": "5800",
+      "stock": 10,
+      "category": "Indumentaria",
+      "subcategory": "Remeras",
+      "description": "Las ultimas zapas de Puma",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_743793-MLA43895466069_102020-W.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Remera Puma",
+      "price": "4300",
+      "stock": 12,
+      "category": "Indumentaria",
+      "subcategory": "Remeras",
+      "description": "Las ultimas zapas de Puma",
+      "image": "https://www.moovbydexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dwa3793673/products/PU_598595-02/PU_598595-02-1.JPG"
+    },
+    {
+      "id": 7,
+      "title": "Procesador Intel I3 10100",
+      "price": "43000",
+      "stock": 12,
+      "category": "Informatica",
+      "subcategory": "Procesadores",
+      "description": "Procesador Intel I3 con garantia",
+      "image": "https://media.solotodo.com/media/cache/e5/dd/e5ddd23d9b67c5fd76018787797430e2.png"
+    },
+    {
+      "id": 8,
+      "title": "Procesador Intel I5 10400f",
+      "price": "49000",
+      "stock": 14,
+      "category": "Informatica",
+      "subcategory": "Procesadores",
+      "description": "Procesador Intel I5 con garantia",
+      "image": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/micro-intel-core-i5-10400f-0.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Procesador Intel I7 10700f",
+      "price": "55000",
+      "stock": 10,
+      "category": "Informatica",
+      "subcategory": "Procesadores",
+      "description": "Procesador Intel I7 con garantia",
+      "image": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/micro-intel-core-i7-10700f-0.jpg"
+    },
+    {
+      "id": 10,
+      "title": "GABINETE PERFORMANCE GAMER 3801 BLACK FAN RGB ATX",
+      "price": "3400",
+      "stock": 10,
+      "category": "Informatica",
+      "subcategory": "Gabinetes",
+      "description": "GABINETE PERFORMANCE GAMER 3801 BLACK FAN RGB Gamer con garantia",
+      "image": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/gabinete-performance-gamer-3801-black--fan-rgb-atx-0.jpg"
+    },
+    {
+      "id": 11,
+      "title": "GABINETE AZZA GAMING UATX 110F LUMINOUS M-ATX VIDRIO",
+      "price": "4140",
+      "stock": 10,
+      "category": "Informatica",
+      "subcategory": "Gabinetes",
+      "description": "Gabinete elegante y estetico",
+      "image": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/gabinete-aerocool-prime--1-fan-argb-0.jpg"
+    },
+    {
+      "id": 12,
+      "title": "GABINETE GAMER MAGNUMTECH 235GM WHITE/SF",
+      "price": "4800",
+      "stock": 10,
+      "category": "Informatica",
+      "subcategory": "Gabinetes",
+      "description": "Gabinete gamer blanco",
+      "image": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/gabinete-gamer-magnumtech-235gm-whitesf-0.jpg"
+    },
+    {
+      "id": 13,
+      "title": "SMARTWATCH APPLE IWATCH 38MM BLANCO",
+      "price": "34000",
+      "stock": 9,
+      "category": "Smartwatch",
+      "subcategory": "Smartwatch",
+      "description": "El Apple Watch Series 3 tiene un sensor óptico para medir tu frecuencia cardiaca y GPS para detectar tu ubicación",
+      "image": "https://chemesweb.com.ar/4229-large_default/smartwatch-apple-iwatch-38mm-blanco.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Smartwatch Xiaomi Mi Watch Lite REDMIWT02 con Bluetooth y GPS - Negro",
+      "price": "8500",
+      "stock": 8,
+      "category": "Smartwatch",
+      "subcategory": "Smartwatch",
+      "description": "Incluye Cable cargador USB - Manual",
+      "image": "https://www.megaeletronicos.com:4420/img/new-1-1-4-4-6-5-114465-1609241360_1609241360.jpg"
+    },
+    {
+      "id": 15,
+      "title": "SmartwaReloj Smart Watch Samsung Galaxy Gear 2019 Sm-r800 Cuotas",
+      "price": "38000",
+      "stock": 7,
+      "category": "Smartwatch",
+      "subcategory": "Smartwatch",
+      "description": "PANTALLA 1.3” (33mm), Circular Super AMOLED (360 x 360)",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_752193-MLA29499730122_022019-O.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Amoladora Angular Black Decker G720 41/2 115mm 820w",
+      "price": "7300",
+      "stock": 7,
+      "category": "Herramientas",
+      "subcategory": "Amoladoras",
+      "description": "PANAmoladora Angular G720 4-1/2 115mm 820w Black + Decker",
+      "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/124/626/products/g720-pagina1-5385986900009177c115882813679257-1024-1024.jpg"
+    },
+    {
+      "id": 17,
+      "title": "AMOLADORA ANGULAR GWS 22-230 9 - 2200 W - 6500 RPM BOSCH",
+      "price": "25000",
+      "stock": 8,
+      "category": "Herramientas",
+      "subcategory": "Amoladoras",
+      "description": "Amoladora Angular Bosch GWS 22-230 2200W Armadura de engranaje de aluminio",
+      "image": "https://www.martinezescalada.com.ar/2919-large_default/amoladora-angular-gws-22-230-9-2200-w-6500-rpm-bosch.jpg"
+    },
+    {
+      "id": 18,
+      "title": "AMOLADORA ANGULAR 115MM 1200W 1100RPM DWE4214 DEWALT",
+      "price": "23000",
+      "stock": 6,
+      "category": "Herramientas",
+      "subcategory": "Amoladoras",
+      "description": "Amoladora DeWalt DWE4214",
+      "image": "https://www.superbrico.com.ar/superbrico/wp-content/uploads/2018/08/DWE4214.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Taladro eléctrico destornillador DeWalt DCD771C2 inalámbrico 1500rpm amarillo/negro",
+      "price": "45000",
+      "stock": 8,
+      "category": "Herramientas",
+      "subcategory": "Taladros",
+      "description": "AmolaLa solución ideal para taladrar de manera precisa, eficiente y eficaz",
+      "image": "https://adamimages.sbdinc.com/GEM/Dewalt/1000x1000_72r/DCD796D2_1.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Taladro De Percusión Bosch GSB 20-2 Re 800w 13mm",
+      "price": "23000",
+      "stock": 9,
+      "category": "Herramientas",
+      "subcategory": "Taladros",
+      "description": "Taladro con percusión Bosch Professional Modelo: GSB 20-2 RE",
+      "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/124/626/products/gsb-20-2-re-pagina-11-697b456261b930d02e15880944488086-1024-1024.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Taladro Percutor 550w Black Decker Hd555k Black + Decker",
+      "price": "6000",
+      "stock": 4,
+      "category": "Herramientas",
+      "subcategory": "Taladros",
+      "description": "Potente motor de 550W.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_601320-MLA41860320777_052020-O.jpg"
+    }
+  ]
+}
